@@ -6,7 +6,7 @@ In order to use this site as the Materials Cloud failover:
 
 1) Update the notification message in `index.html`
 2) Change `CNAME` to `materialscloud.org`
-3) Update the `A` apex (`@`) entry to point to the GitHub IP addresses:
+3) Update the `A` apex (`@`) entry to point to the GitHub IP addresses (just one entry should be enough for a temporary failover):
 ```
 185.199.108.153
 185.199.109.153
